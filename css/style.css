@@ -19,3 +19,24 @@
     top: 75px;
     z-index: 2;
 }
+.login{
+    display: flex;
+    justify-content: center;
+}
+.login-form{
+    width: 50%;
+    border: 2px dotted red;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form input{
+    margin-top: 1em;
+    font-size: 2em;
+    padding: 10px 20px;
+}
+.login-form input[type="submit"]{
+    border-radius: 10px;
+    background-color: gold;
+}
