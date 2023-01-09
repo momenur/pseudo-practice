@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+.swiming{
+    position: relative;
+}
+.water{
+    position: relative;
+    top: -75px;
+}
+.ring{
+    position: relative;
+    z-index: 1;
+}
+.boy{
+    position: relative;
+    top: 75px;
+    z-index: 2;
+}
